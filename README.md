@@ -5,7 +5,9 @@ I built this project as an introduction to React. The purpose was to explore the
 The dataset was pulled from Kaggle here:
 https://www.kaggle.com/abcsds/pokemon
 
-There are plenty things I would do different if rebuilding. This is expected as an introductory project.
+There are plenty things I would do different if rebuilding. Minimal styling is used and may be added later.
+
+![Pokemon Statistics Visualizer Preview](pokemon_statistics_preview.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
