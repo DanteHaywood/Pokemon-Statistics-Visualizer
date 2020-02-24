@@ -49,7 +49,7 @@ class App extends Component {
   }
 
   componentWillMount(){
-    csv('https://raw.githubusercontent.com/DanteHaywood/viz/master/pokemon_stats/Pokemon.csv')
+    csv('https://raw.githubusercontent.com/DanteHaywood/Pokemon-Statistics-Visualizer/master/Pokemon.csv')
       .then(data => {
         this.setState({ 'data':data, 'filteredData':data, 'selectedTypes':this.state.allTypes});
         this.nPokemon();
