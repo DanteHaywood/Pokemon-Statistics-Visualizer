@@ -1,4 +1,4 @@
-### Pokemon Stats Visualizer
+### Pokemon Statistics Visualizer
 
 I built this project as an introduction to React. The purpose was to explore the library and integrate it with home-brewed D3 visualizations. Interactive data visualization and React are perfect for each other. The project demonstrates how React components can manipulate D3 charts.
 
