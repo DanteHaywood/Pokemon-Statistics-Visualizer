@@ -2,6 +2,9 @@
 
 I built this project as an introduction to React. The purpose was to explore the library and integrate it with home-brewed D3 visualizations. Interactive data visualization and D3 are perfect for each other. The project demonstrates how React components can manipulate D3 charts.
 
+The dataset was pulled from Kaggle here:
+https://www.kaggle.com/abcsds/pokemon
+
 There are plenty things I would do different if rebuilding. This is expected as an introductory project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
