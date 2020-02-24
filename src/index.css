@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.chart-area {
+  position: absolute;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 12px;
+  pointer-events: none;
+  background-color: white;
+}
+
+/* Autocomplete animations */
+$loaderColor: #777;
+$autocompleteInputBorderColor: #999;
+$autocompleteListShadow: 0px 2px 4px #bbb;
+$autocompleteListBorderColor: #999;
+$autocompleteListBgColor: #fff;
+$autocompleteListHoverColor: #007bff;
+
+@keyframes cssload-rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes cssload-rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes cssload-rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+/* fadeIn animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+/* selected element */
+.selected {
+  position: relative;
+  font-size: 16px;
+}
+
+/* autocomplete container */
+.autocomplete_container {
+  position: relative;
+  margin-top: 10px;
+}
+
+/* autocomplete component style */
+.autocomplete {
+  input {
+    position: relative;
+  }
+}
+
+.autocomplete-loading {
+  position: relative;
+  float: left;
+  margin-left: -34px;
+  top: 7px;
+}
+
+.autocomplete-list {
+  position: absolute;
+  min-width: 100%;
+  top: 40px;
+  background: $autocompleteListBgColor;
+  box-shadow: $autocompleteListShadow;
+  box-sizing: border-box;
+  animation: fadeIn ease-in 1 forwards 100ms;
+}
+
+.autocomplete__item {
+  padding: 8px;
+
+  &.hover,
+  &:hover {
+    background: $autocompleteListHoverColor;
+  }
+}
+
+.badge-pill {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.poke-border {
+  border-top: black 3px solid;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 2px black, 0 0 0 2px #fafafa, 0 0 0 4px #fafafa, -2px 0 0 4px black, 2px 0 0 4px black, 0 -2px 0 4px black, 0 4px 0 4px black;
+}
+
+.scatter-circle {
+  cursor: pointer;
+}
