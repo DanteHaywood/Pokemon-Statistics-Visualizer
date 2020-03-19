@@ -5,7 +5,7 @@ I built this project as an introduction to React. The purpose was to explore the
 The dataset was pulled from Kaggle here:
 https://www.kaggle.com/abcsds/pokemon
 
-There are plenty things I would do different if rebuilding. This includes managing the app's state better and isolating more components. Styling is based of the original Pokemon GameBoy UI.
+There are plenty things I would do different if rebuilding. This includes managing the app's state better and isolating more components. Styling is based on the original Pokemon GameBoy UI.
 
 ![Pokemon Statistics Visualizer Preview](pokemon_statistics_preview.gif)
 
