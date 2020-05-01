@@ -1,6 +1,6 @@
 ### Pokemon Statistics Visualizer
 
-The React app allows you to explore the statistics of 721 Pokemon. Manipulate the scatter plot with the toolbar on the left, hover and click on a scatter circle to see more details about that Pokemon.
+This React app allows you to explore the statistics of 721 Pokemon. Manipulate the scatter plot with the toolbar on the left, hover and click on a scatter circle to see more details about that Pokemon.
 
 I built this project as an introduction to React. The purpose was to explore the library and integrate it with home-brewed D3 visualizations. Interactive data visualization and React are perfect for each other. The project demonstrates how React components can manipulate D3 charts.
 
