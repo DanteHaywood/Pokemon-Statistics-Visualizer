@@ -2,11 +2,13 @@
 
 This React app allows you to explore the statistics of 721 Pokemon. Manipulate the scatter plot with the toolbar on the left, hover and click on a scatter circle to see more details about that Pokemon.
 
-I built this project as an introduction to React. The purpose was to explore the library and integrate it with home-brewed D3 visualizations. Interactive data visualization and React are perfect for each other. The project demonstrates how React components can manipulate D3 charts.
+I built this project as an introduction to React. The purpose was to explore the library and integrate it with home-brewed D3 visualizations. Interactive data visualization and React are perfect for each other. The project demonstrates how React components can manipulate D3 charts and vice-versa.
 
 The dataset was pulled from Kaggle here: https://www.kaggle.com/abcsds/pokemon
 
-There are plenty things I would do different if rebuilding. This includes managing the app's state better and isolating more components. Styling is based on the original Pokemon GameBoy UI.
+Improvements to be made include creating lightweight app state management and succinct component isolation. 
+
+Styling is based on the original Pokemon GameBoy UI.
 
 ![Pokemon Statistics Visualizer Preview](pokemon_statistics_preview.gif)
 
